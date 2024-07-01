@@ -26,7 +26,7 @@ func main() {
 	flag.Parse()
 
 	if *user == "" || *pass == "" {
-		log.Printf("You need to provide user and pass.")
+		log.Println("You need to provide user and pass.")
 		return
 	}
 
